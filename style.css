@@ -1,30 +1,18 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background-color: white;
 }
 
 div {
 display: block;
 }
 
-div#wrapper {
-background: #fff;
-margin-top: 20px;
-padding: 0 20px;
-}
 
 div#header {
 padding: 30px 0 0 0;
 }
 
-div#masthead{
-background: transparent;
-border: 0;
-margin: 0;
-padding: 0;
-vertical-align: baseline;
-}
 
 h1#site-title {
 float: left;
@@ -64,11 +52,7 @@ margin: 0 auto;
 width: 940px;
 }
 
-div#container {
-float: left;
-margin: 0 -240px 0 0;
-width: 100%;
-}
+
 
 div#content {
 margin-bottom: 50px;
@@ -80,15 +64,6 @@ margin: 0 auto;
 width: 940px;
 }
 
-div#post {
-	{
-background: transparent;
-border: 0;
-padding: 0;
-vertical-align: baseline;
-margin: 0 0 48px 0;
-line-height: 24px;
-}
 
 div.nav-previous {
 float: left;
@@ -131,7 +106,8 @@ font-size: 14px;
 font-weight: bold;
 }
 
-li {
-display: list-item;
-text-align: -webkit-match-parent;
+ul {
+padding: 0 0 0 0;
+margin: 0 auto;
+width: 940px;
 }
